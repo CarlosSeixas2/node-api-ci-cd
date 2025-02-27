@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
+        run: npm run test
 
   deploy:
     name: Deploy to Render
